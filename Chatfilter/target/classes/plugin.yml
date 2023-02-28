@@ -1,0 +1,10 @@
+name: CapsFilter
+version: '1.0'
+main: com.savage.plugins.capsfilter.CapsFilter
+api-version: 1.19
+authors: [ SavageDev ]
+commands:
+  reloadfilter:
+    aliases: rfilter
+    description: reloads config file for chat filter
+    permission: profile.reloadfilter
